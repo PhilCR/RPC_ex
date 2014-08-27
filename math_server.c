@@ -9,40 +9,40 @@
 result * mathplus_1_svc(numbers *argp, struct svc_req *rqstp)
 {
 
-	static result  result;
+	static result answer;
 
-	result = argp->a + argp->b;
+	answer = argp->a + argp->b;
 
-	return(&result);
+	return(&answer);
 }
 
 result * mathminus_1_svc(numbers *argp, struct svc_req *rqstp)
 {
 
-	static result  result;
+	static result  answer;
 
-	result = argp->a - argp->b;
+	answer = argp->a - argp->b;
 
-	return(&result);
+	return(&answer);
 }
 
 result * mathtimes_1_svc(numbers *argp, struct svc_req *rqstp)
 {
 
-	static result  result;
+	static result answer;
 
-	result = argp->a * argp->b;
+	answer = argp->a * argp->b;
 
-	return(&result);
+	return(&answer);
 }
 
 result * mathdiv_1_svc(numbers *argp, struct svc_req *rqstp)
 {
 
-	static result  result;
+	static result answer;
 
 	if ( argp->b != 0 )
-		result = argp->a / argp->b;
+		answer = argp->a / argp->b;
 
-	return(&result);
+	return(&answer);
 }
