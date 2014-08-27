@@ -1,0 +1,297 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"result",
+				"result_1"
+			],
+			[
+				"fo",
+				"fowardSpeed"
+			],
+			[
+				"l",
+				"Log"
+			],
+			[
+				"de",
+				"Debug"
+			],
+			[
+				"max",
+				"maxSpeed-10"
+			],
+			[
+				"Part",
+				"partGameObject"
+			],
+			[
+				"id",
+				"idxPlaying"
+			],
+			[
+				"pla",
+				"playMusic"
+			],
+			[
+				"Stat",
+				"State"
+			],
+			[
+				"_",
+				"_M"
+			],
+			[
+				"Ax",
+				"AxisY"
+			],
+			[
+				"Suc",
+				"Succs"
+			],
+			[
+				"Succ",
+				"successors"
+			],
+			[
+				"Sta",
+				"State"
+			],
+			[
+				"writ",
+				"writeln"
+			],
+			[
+				"Y",
+				"Y"
+			],
+			[
+				"wri",
+				"writeln"
+			],
+			[
+				"ob",
+				"obstacle"
+			],
+			[
+				"State",
+				"State"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Makefile/Make.sublime-build",
+	"command_palette":
+	{
+		"height": 287.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/philcr/Library/Application Support/Sublime Text 3/Packages/sublime-github/GitHub.sublime-settings",
+		"/Users/philcr/Google Drive/UFSCar/SD/RPC_ex/math.x",
+		"/Users/philcr/Google Drive/UFSCar/SD/RPC_ex/build.sublime-build",
+		"/Users/philcr/Google Drive/UFSCar/SD/RPC_ex/math_xdr.c",
+		"/Users/philcr/Google Drive/UFSCar/SD/RPC_ex/math_svc.c",
+		"/Users/philcr/Google Drive/UFSCar/SD/RPC_ex/math_clnt.c",
+		"/Users/philcr/Google Drive/UFSCar/SD/RPC_ex/client.c",
+		"/Users/philcr/Google Drive/UofT /VideoGamesDesign/flee/WebFlee/WebFlee.html",
+		"/Users/philcr/Library/Caches/TemporaryItems/775779_10151990582740841_4406545962918879520_o.jpg",
+		"/Users/philcr/Desktop/Flee Final/flee/Assets/Scripts/Speed.js",
+		"/Users/philcr/Desktop/Flee Final/flee/WebFlee/WebFlee.html",
+		"/Users/philcr/Desktop/Flee Final/flee/Assets/Main Menu/Scripts/color.js",
+		"/Users/philcr/Desktop/Flee Final/flee/Assets/Scripts/EndGame.js",
+		"/Users/philcr/Desktop/flee/Assets/Scripts/Obstacle.js",
+		"/Users/philcr/Desktop/flee/Assets/Scripts/ObstacleGeneration.js",
+		"/Users/philcr/Downloads/Speed.js",
+		"/Users/philcr/Desktop/flee/Assets/Scripts/Game Menu.js",
+		"/Users/philcr/Desktop/flee/Assets/Scripts/Speed.js",
+		"/Users/philcr/Desktop/flee/Assets/Scripts/PlayerControl.js",
+		"/Users/philcr/Desktop/flee/Assets/Scripts/MusicEffect.js",
+		"/Users/philcr/Desktop/flee/Assets/Scripts/PlatformRepeater.js",
+		"/Users/philcr/Desktop/flee/Assets/Scripts/MovesPlatform.js",
+		"/Users/philcr/Desktop/flee/Assets/Scripts/LoadBGMusic.js",
+		"/Users/philcr/Desktop/flee/Assets/Scripts/GameControl.js",
+		"/Users/philcr/Desktop/flee/Assets/Scripts/LevelControl.js",
+		"/Users/philcr/Desktop/flee/Assets/Scripts/Initial.js",
+		"/Users/philcr/flee/Assets/Scripts/Initial.js",
+		"/Users/philcr/flee/Assets/AutoDestruction.js",
+		"/Users/philcr/flee/Assets/Scripts/MusicalMenu.js",
+		"/Users/philcr/flee/Assets/Scripts/Game Menu.js",
+		"/Users/philcr/flee/Assets/Scripts/MusicEffect.js",
+		"/Users/philcr/flee/Assets/Scripts/LevelControl.js",
+		"/Users/philcr/flee/Assets/Scripts/MovesPlayer.js",
+		"/Users/philcr/flee/Assets/Scripts/BuildingEffect.js",
+		"/Users/philcr/flee/Assets/Scripts/Obstacle.js",
+		"/Users/philcr/flee/Assets/Scripts/MusicalEffect.js",
+		"/Users/philcr/flee/Assets/Scripts/ColorBlink.js",
+		"/Users/philcr/flee/Assets/Scripts/FolderMusic.js",
+		"/Users/philcr/flee/Assets/Scripts/LevelGenerator.js",
+		"/Users/philcr/flee/Assets/Score.js",
+		"/Users/philcr/flee/Assets/GUICreation.js",
+		"/Users/philcr/flee/Assets/FolderMusic.js",
+		"/Users/philcr/flee/Assets/MusicEffect.js",
+		"/Users/philcr/flee/Assets/Metronomy.js",
+		"/Users/philcr/fleet/FolderMusic.js",
+		"/Users/philcr/Google Drive/UofT /ArtificialInteligence/Assignments/A1/a1handin.pl",
+		"/Users/philcr/Google Drive/UofT /ArtificialInteligence/Assignments/A1/a1answers.txt",
+		"/Users/philcr/Google Drive/UofT /ArtificialInteligence/Assignments/A1/waterjugs.pl",
+		"/Users/philcr/Google Drive/UofT /ArtificialInteligence/Assignments/A1/simpleSpace.pl",
+		"/Users/philcr/Google Drive/UofT /ArtificialInteligence/Assignments/A1/idastar.pl",
+		"/Users/philcr/Google Drive/UofT /ArtificialInteligence/Assignments/A1/astarcommon.pl",
+		"/Users/philcr/Google Drive/UofT /ArtificialInteligence/Assignments/A1/astarCC.pl",
+		"/Users/philcr/Google Drive/UofT /ArtificialInteligence/Assignments/A1/astar.pl"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"add",
+			"state",
+			"equali"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"math"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "rpc.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
