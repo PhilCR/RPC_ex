@@ -5,20 +5,20 @@
  */
 
 #include "math.h"
+#include <stdlib.h>
 
 
 void
-mathprog_1( char* host)
+mathprog_1( char* host, numbers number)
 {
 	CLIENT *clnt;
+
 	result  *result_1;
-	numbers  mathplus_1_arg = { 1, 1};
 	result  *result_2;
-	numbers  mathminus_1_arg = { 1, 2};
 	result  *result_3;
-	numbers  mathtimes_1_arg = { 3, 9};
 	result  *result_4;
-	numbers  mathdiv_1_arg = { 3, 2};
+
+	numbers  math_arg = number;
 
 	clnt = clnt_create(host, MATHPROG, MATHVERS, "udp");
 	if (clnt == NULL) {
@@ -26,33 +26,33 @@ mathprog_1( char* host)
 		exit(1);
 	}
 
-	result_1 = mathplus_1(&mathplus_1_arg, clnt);
+	result_1 = mathplus_1(&math_arg, clnt);
 	if (result_1 == NULL) {
 		clnt_perror(clnt, "call failed:");
 	}
 
-	printf("Soma de %f e %f: %f\n", mathplus_1_arg.a, mathplus_1_arg.b, *result_1);
+	printf("Soma de %.2f e %.2f: %.2f\n", math_arg.a, math_arg.b, *result_1);
 
-	result_2 = mathminus_1(&mathminus_1_arg, clnt);
+	result_2 = mathminus_1(&math_arg, clnt);
 	if (result_2 == NULL) {
 		clnt_perror(clnt, "call failed:");
 	}
 
-	printf("Subtracao de %f e %f: %f\n",mathminus_1_arg.a, mathminus_1_arg.b, *result_2);
+	printf("Subtracao de %.2f e %.2f: %.2f\n",math_arg.a, math_arg.b, *result_2);
 
-	result_3 = mathtimes_1(&mathtimes_1_arg, clnt);
+	result_3 = mathtimes_1(&math_arg, clnt);
 	if (result_3 == NULL) {
 		clnt_perror(clnt, "call failed:");
 	}
 
-	printf("Multiplicacao de %f e %f: %f\n", mathtimes_1_arg.a, mathtimes_1_arg.b, *result_3);
+	printf("Multiplicacao de %.2f e %.2f: %.2f\n", math_arg.a, math_arg.b, *result_3);
 
-	result_4 = mathdiv_1(&mathdiv_1_arg, clnt);
+	result_4 = mathdiv_1(&math_arg, clnt);
 	if (result_4 == NULL) {
 		clnt_perror(clnt, "call failed:");
 	}
 
-	printf("Divisao de %f por %f: %f\n", mathdiv_1_arg.a, mathdiv_1_arg.b, *result_4);
+	printf("Divisao de %.2f por %.2f: %.2f\n", math_arg.a, math_arg.b, *result_4);
 
 	clnt_destroy( clnt );
 }
@@ -61,11 +61,16 @@ mathprog_1( char* host)
 main( int argc, char* argv[] )
 {
 	char *host;
+	numbers number;
 
-	if(argc < 1) {
+	if(argc < 3) {
 		printf("usage: %s server_host\n", argv[0]);
 		exit(1);
 	}
+
 	host = argv[1];
-	mathprog_1( host );
+	number.a = atof(argv[2]);
+	number.b = atof(argv[3]);
+
+	mathprog_1( host , number );
 }
